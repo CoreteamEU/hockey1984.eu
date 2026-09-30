@@ -6,7 +6,7 @@ Promotional website for Hockey 1984. Plain HTML and CSS, with no build step or d
 
 Publish through GitHub Pages from the `main` branch, `/` (root), matching the morebands.eu setup.
 
-- Website: https://coreteameu.github.io/hockey1984.eu/
+- Website: https://hockey1984.eu/
 - Repository: https://github.com/CoreteamEU/hockey1984.eu
 
 The first version includes a game introduction, gameplay screenshot, instructions, and the verified App Store link. Android availability is not yet linked.
@@ -22,4 +22,6 @@ Copy is based on that project's English store descriptions. App Store: https://a
 
 ## Custom domain
 
-The intended domain is `hockey1984.eu`. Configure and verify DNS before enabling this custom domain in GitHub Pages and adding the root `CNAME` file. Until then, use the repository's GitHub Pages URL.
+GitHub Pages uses `hockey1984.eu` as its custom domain. Keep the root `CNAME` file committed.
+
+DNS is managed at Zone using its existing nameservers. The apex uses GitHub Pages A records `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`. The `www` CNAME points to `coreteameu.github.io.`. GitHub manages the HTTPS certificate.
