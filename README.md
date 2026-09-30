@@ -13,7 +13,14 @@ The first version includes a game introduction, gameplay screenshot, instruction
 
 ## Privacy notice
 
-`privacy.html` is the app's privacy notice, moved unchanged in wording from https://coreteameu.github.io/hockeyScenes/privacy.html (Termly-generated, last updated February 01, 2021) and restyled for this site. Section anchors keep their original IDs. The old `hockeyScenes` site must stay online because the game downloads its scene files from it.
+`privacy.html` is the privacy notice for the iOS and Android apps and the URL used in App Store
+Connect and Google Play Console. Rewritten on 2026-09-30 from the 2021 Termly notice to disclose the
+Google Mobile Ads SDK (per Google's Play data disclosure page), UMP consent, iOS App Tracking
+Transparency, Game Center and the iOS level download from GitHub Pages; it must stay consistent
+with the Play Data safety answers recorded in the game repo's `docs/android-release.md`. Anchors
+`infocollect`, `infoshare`, `intltransfers`, `3pwebsites`, `inforetain`, `privacyrights`,
+`policyupdates` and `contact` were kept; `DNT`, `caresidents` and `request` were removed. The old
+`hockeyScenes` site must stay online because the iOS game downloads its scene files from it.
 
 ## Assets
 
