@@ -11,6 +11,10 @@ Publish through GitHub Pages from the `main` branch, `/` (root), matching the mo
 
 The first version includes a game introduction, gameplay screenshot, instructions, and the verified App Store link. Android availability is not yet linked.
 
+## Privacy notice
+
+`privacy.html` is the app's privacy notice, moved unchanged in wording from https://coreteameu.github.io/hockeyScenes/privacy.html (Termly-generated, last updated February 01, 2021) and restyled for this site. Section anchors keep their original IDs. The old `hockeyScenes` site must stay online because the game downloads its scene files from it.
+
 ## Assets
 
 Images are unmodified copies from the Hockey 1984 game project:
