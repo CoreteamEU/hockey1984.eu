@@ -6,6 +6,9 @@ Promotional website for Hockey 1984. Plain HTML and CSS, with no build step or d
 
 Publish through GitHub Pages from the `main` branch, `/` (root), matching the morebands.eu setup.
 
+- Website: https://coreteameu.github.io/hockey1984.eu/
+- Repository: https://github.com/CoreteamEU/hockey1984.eu
+
 The first version includes a game introduction, gameplay screenshot, instructions, and the verified App Store link. Android availability is not yet linked.
 
 ## Assets
