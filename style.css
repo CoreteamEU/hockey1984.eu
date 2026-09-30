@@ -20,8 +20,8 @@ a:focus-visible { outline: 3px solid var(--red); outline-offset: 8px; }
   padding: 1.5rem 5%;
 }
 .masthead { border-bottom: 1px solid #101f3230; }
-.wordmark { font-size: 2rem; font-weight: 900; letter-spacing: -.12em; text-decoration: none; }
-.wordmark-year { color: var(--red); padding-left: .12em; }
+.wordmark { display: block; flex-shrink: 0; }
+.wordmark img { display: block; width: 64px; height: auto; }
 .masthead-label, .eyebrow, .edition, .side-label, footer {
   font-family: "Courier New", Courier, monospace;
   font-size: .875rem;
