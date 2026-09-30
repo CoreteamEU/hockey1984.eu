@@ -44,8 +44,8 @@ a:focus-visible { outline: 3px solid var(--red); outline-offset: 8px; }
 .edition { align-self: stretch; display: flex; flex-direction: column; align-items: center; gap: 1rem; padding: 1rem 0; }
 .edition-line { display: block; width: 1px; flex: 1; background: #101f3230; }
 .eyebrow { margin: 0 0 1.5rem; }
-h1 { margin: 0; font-size: clamp(3rem, 9.5vw, 10rem); line-height: .88; font-weight: 900; letter-spacing: -.065em; }
-h1 span { display: block; color: var(--red); font-size: 1.4em; letter-spacing: -.085em; margin-top: .03em; }
+h1 { margin: 0; font-size: clamp(3rem, 9.5vw, 10rem); line-height: .88; font-weight: 900; letter-spacing: -.045em; }
+h1 span { display: block; color: var(--red); font-size: 1.4em; letter-spacing: -.04em; margin-top: .03em; }
 .intro { display: flex; align-items: center; gap: 1rem; margin-top: 2.5rem; }
 .intro p { font-size: 1.125rem; line-height: 1.5; margin: 0; }
 .accent { width: 2.5rem; height: .3rem; background: var(--red); flex-shrink: 0; }
