@@ -1,1 +1,5 @@
-{"ads_enabled": true}
+{
+  "ads_enabled": true,
+  "first_full_screen_ad_after_seconds": 120,
+  "seconds_between_full_screen_ads": 180
+}
