@@ -1,5 +1,9 @@
 {
   "ads_enabled": true,
   "first_full_screen_ad_after_seconds": 120,
-  "seconds_between_full_screen_ads": 180
+  "seconds_between_full_screen_ads": 180,
+  
+  "classic_keeper_after_goals": 5,
+  "classic_players_after_goals": 10,
+  "classic_wall_after_goals": 15
 }
