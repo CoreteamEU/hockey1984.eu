@@ -31,6 +31,17 @@ Images are unmodified copies from the Hockey 1984 game project:
 
 Copy is based on that project's English store descriptions. App Store: https://apps.apple.com/app/id1533790213.
 
+## Ad switch
+
+`ads.json` is read by the iOS and Android apps at launch (cached on the device). `ads_enabled`
+turns all ads off for every install on both platforms; the other keys tune ad pacing and the
+Original game.
+
+`ads_enabled` is `false` since 2026-11-10, after the AdMob account was suspended for invalid
+traffic (2026-10-23, 29 days). Real ad traffic was a few cents a month, mostly from testers and
+our own devices. Set it back to `true` when the game goes to production on Google Play, once
+testing-track builds use Google's sample ad IDs (see the game repo's `docs/android-release.md`).
+
 ## Custom domain
 
 GitHub Pages uses `hockey1984.eu` as its custom domain. Keep the root `CNAME` file committed.
