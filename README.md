@@ -42,6 +42,9 @@ traffic (2026-10-23, 29 days). Real ad traffic was a few cents a month, mostly f
 our own devices. Set it back to `true` when the game goes to production on Google Play, once
 testing-track builds use Google's sample ad IDs (see the game repo's `docs/android-release.md`).
 
+`app-ads.txt` authorizes our AdMob publisher ID to sell ads in the apps. AdMob reads it from the
+developer website named in the App Store and Google Play listings.
+
 ## Custom domain
 
 GitHub Pages uses `hockey1984.eu` as its custom domain. Keep the root `CNAME` file committed.
