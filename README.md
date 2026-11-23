@@ -9,7 +9,9 @@ Publish through GitHub Pages from the `main` branch, `/` (root), matching the mo
 - Website: https://hockey1984.eu/
 - Repository: https://github.com/CoreteamEU/hockey1984.eu
 
-The first version includes a game introduction, gameplay screenshot, instructions, and the verified App Store link. Android availability is not yet linked.
+The home page covers the game's story, its three modes (Original game, Challenges, Keeper duel), how to play, support, and the verified App Store link. Android availability is not yet linked. Mode copy follows the iOS 2.2.0 App Store description in the game repo (`ios/marketing/app-store/releases/2.2.0/en-US/description.txt`).
+
+The ice background is an inline SVG noise texture in `style.css`, so it adds no requests. `--red` is the logo red (`#ff0e00`); use `--red-deep` for small text and white-on-red, where the logo red fails WCAG AA contrast.
 
 ## Privacy notice
 
