@@ -26,9 +26,10 @@ with the Play Data safety answers recorded in the game repo's `docs/android-rele
 
 ## Assets
 
-Images are unmodified copies from the Hockey 1984 game project:
+Images are copies from the Hockey 1984 game project:
 
 - `img/gameplay.jpg`: `android/app/src/main/play/listings/en-US/graphics/phone-screenshots/2.jpg`
+- `img/gameplay-660.jpg`, `img/gameplay-990.jpg`: `gameplay.jpg` resized with `sips` (JPEG quality 70) for `srcset`; the 1242 px original only serves high-density screens.
 - `img/logo.png`: `ios/HokejsSwift/Assets.xcassets/logo_eng.imageset/logo_eng.png`
 
 Copy is based on that project's English store descriptions. App Store: https://apps.apple.com/app/id1533790213.
